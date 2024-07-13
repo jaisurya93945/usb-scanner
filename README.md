@@ -1,4 +1,4 @@
-# USB Drive Scanner: Safeguard Your Data
+# 🛡️ USB Drive Scanner: Safeguard Your Data
 
 Welcome to the **USB Drive Scanner** project! Whether you're a security professional, a cautious user, or just someone who values their data, this script is designed to help you keep your USB drives free from malware and other threats. With this tool, you can ensure that every connected USB drive is scanned and verified for safety before use.
 
@@ -11,12 +11,19 @@ Welcome to the **USB Drive Scanner** project! Whether you're a security professi
 
 ## 🚀 Getting Started
 
-To get started with the USB Drive Scanner, follow these simple steps:
+To get started with the USB Drive Scanner, follow these comprehensive steps:
 
-### 1. Clone the Repository
+1. **Clone the Repository, Install Dependencies, and Run the Script**
 
-Start by cloning the repository to your local machine. This will create a copy of the project files on your system.
+   Begin by cloning the repository to your local machine. Navigate into the project directory, install the required Python dependency `psutil`, and then run the script to start scanning your USB drives.
 
-```bash
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
+   ```bash
+   # Clone the repository
+   git clone https://github.com/yourusername/your-repository-name.git
+   cd your-repository-name
+
+   # Install the required dependency
+   pip install psutil
+
+   # Run the script to start scanning USB drives
+   python your_script_name.py
